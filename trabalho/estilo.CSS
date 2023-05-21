@@ -1,0 +1,30 @@
+.cabeçalho {background-color:rgb(71, 63, 88);  font-family: 'Courier New', Courier, monospace; font-size: larger;font-weight: 700;color: #4d959f;}
+
+.botao {display: inline; text-align: center; padding-bottom: 10px;padding-right: 10%;padding-left: 5%;}
+.corpo {display: block;width: 100%; height: 100%; background-color: blanchedalmond;}
+.container{width: 100%; position:relative}
+    .box  {position: absolute; text-align: center;background-color:rgb(71, 63, 88) ; bottom: 5%; left: 30%; padding: 10px;
+    width: 40%;height: 1100px; box-shadow: 6px 6px 25px#322945; background-image: radial-gradient(#473F58 85%, #3d3450);font-family: 'Courier New', Courier, monospace;}
+.container image {width: 100%;    }
+ .box h3 {height: 1%;}
+ .box  h4 {height: 5%; padding-top: 6%;}
+ .box   input {float: left; width: 100%; background-color: #312b3d}
+ .descrição h4 { height: 5%; padding-top: 6%;}
+ .descrição input {height: 250px;background-color: #312b3d}
+.rodape {  width: 100%; height: 250px; background-color:rgb(71, 63, 88) ;padding-top: 10px;  background-image: linear-gradient(#473F58 50%, #322945);}
+.caixa label { width:5%                             }
+.descrição button {margin-top: 35px; background-color:  #3d3450; 
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 600px)
+ {
+     
+        .container image {  display: none;}
+        .box {position:block;}
+  }
